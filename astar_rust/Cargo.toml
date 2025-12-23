@@ -1,0 +1,13 @@
+[package]
+name = "astar_rust"
+version = "0.1.0"
+edition = "2024"
+authors = ["Kilian Bartz"]
+description = "This crate implements an A*-based solver for grid-based glass fiber cabling problems. Solutions may be optimized through bend flipping to maximize the number of routed nets."
+
+[dependencies]
+min-heap = "1.0.0"
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = "1.0.145"
+itertools = "0.14.0"
+clap = { version = "4.5.53", features = ["derive"] }
